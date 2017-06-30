@@ -1,0 +1,77 @@
+352  docker images
+  353  docker search tomcat
+  354  docker pull tomcat
+  355  docker images
+  356  docker tag b8dfe9ade316 amit110/bizruntime:tomcat
+  357  docker images
+  358  docker login
+  359  docker push amit110/bizruntime:tomcat
+  360  docker images
+  361  docker search tomcat
+  362  docker tag b8dfe9ade316 amit110/bizruntime:tomcat-private
+  363  docker tag b8dfe9ade316 amit110/private:tomcat
+  364  docker push amit110/private:tomcat
+  365  docker run -it a78b30e83caf /bin/bash -> wrong command ######################
+  366  docker run -it amit110/bizruntime:tomcat /bin/bash
+  367  docker ps
+  368  docker run -itd amit110/bizruntime:tomcat /bin/bash
+  369  docker ps
+  370  docker exec -it 53550b977f71 /bin/bash
+  371  docker ps
+  372  docker stop 53550b977f71
+  373  docker ps
+  374  docker ps -a
+ 
+  376  docker rm -f b82cc9363eaa
+  377  docker ps -a
+  378  docker rm -f $(docker ps -a -q)
+  379  docker ps -a
+  380  docker images
+  381  docker rmi d17ff8f0b61b
+  382  docker rmi 7c445a45d637 cbd376128520 db41015d21cf  04e1928cf3e7 824ce2ce6cf9
+  383  docker images
+  384  docker run -itd -p 81:80 ubuntu:latest /bin/bash
+  385  docker ps
+  386  docker exec -it 85079a3de67b /bin/bash
+  387  ifconfig
+  388  docker ps
+  389  docker commit 85079a3de67b amit110/bizruntime:apcahe2
+  390  docker images
+  391  docker push amit110/bizruntime:apcahe2
+  392  docker ps
+  393  docker stop 85079a3de67b
+  394  docker images
+  395  docker rmi -f a5622e5d0641
+  396  docker images
+  397  docker pull amit110/bizruntime:apcahe2
+  398  docker -version
+  399  docker -v
+  400  docker images
+  401  docker run -itd -p 82:80 --name apache2 -h apache amit110/bizruntime:apcahe2 /bin/bash
+  402  docker ps
+  403  docker exec-it 3f5029ae456a /bin/bash
+  404  docker exec-it 3f5029ae456a /bin/bash/
+  405  docker exec -it 3f5029ae456a /bin/bash/
+  406  docker exec -it 3f5029ae456a /bin/bash
+  407  docker ps
+  408  docker attach -it 3f5029ae456a /bin/bash
+  409  docker attach  3f5029ae456a /bin/bash
+  410  docker attach  3f5029ae456a 
+  411  docker ps
+  412  history
+root@ubuntu:~# 
+
+
+
+-------------------------------------------------------------------
+
+ 1356  docker build -t amu:amuapche .
+ 1357  docker images
+
+ 1359  docker run -itd -p 82:80 --name apache002 -h apache002 ccd6bf6bcb34 /bin/bash
+ 1360  docker images
+
+ 1371  docker ps
+ 1372  docker exec -it 7e3f6e11ccd2 /bin/bash
+ 1373  history
+
